@@ -18,13 +18,13 @@ Author URI: https://grzegorzzajac.pl
 add_action( 'wp_head', 'my_own_analytics', 20 );
 function my_own_analytics() { ?>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SPE3HW2GPY"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=XXXXXXXXXXXX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-SPE3HW2GPY');
+        gtag('config', 'XXXXXXXXXXXX');
     </script>
     <?php
 }
