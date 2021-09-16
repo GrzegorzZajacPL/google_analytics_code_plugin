@@ -12,13 +12,13 @@ Author URI: https://twojasuperstrona.pl
 
 
 /*
-* Kod nalezy podmienic na swoj, pomiedzy komentarzami BEGIN twoj kod i END twoj kod
+* Kod google script nalezy podmienic na swoj
 */
 
 add_action( 'wp_head', 'my_own_analytics', 20 );
 function my_own_analytics() { ?>
 
-//BEGIN twoj kod
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=xxxxxxxxxxxxxxxx"></script>
@@ -30,7 +30,7 @@ function my_own_analytics() { ?>
         gtag('config', 'xxxxxxxxxxxxxxxx');
     </script>
 
-//END twoj kod
+
     <?php
 }
 
